@@ -1,0 +1,16 @@
+{
+  "name": "playground-theme-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss ../css/main.css -w",
+    "serve": "browser-sync start --proxy 'http://localhost:8888/playground-b' --files '../css/*.css', '../js/*.js', '../../*.php', '../../**/*.php'",
+    "dev": "npm run compile:sass & npm run serve"
+  },
+  "author": "Burak",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+/*
+Theme Name: Playground B
+Author: Nova Elias
+Description: Ein leichtgewichtiges WordPress-Theme mit Bootstrap
+Version: 1.0
+*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
