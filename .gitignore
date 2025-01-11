@@ -1,0 +1,65 @@
+# macOS system files
+.DS_Store
+.Trash/
+.Spotlight-V100
+.AppleDouble
+._*
+.fseventsd
+.VolumeIcon.icns
+.icon
+.localized
+
+# macOS-specific caches
+Library/Caches/
+Library/Logs/
+Library/Application Support/
+Library/Containers/
+Library/Preferences/
+Library/Suggestions/
+Library/PersonalizationPortrait/
+Library/Reminders/
+
+# Node modules and build artifacts
+node_modules/
+npm-debug.log
+dist/
+build/
+*.log
+
+# WordPress Core and unnecessary files
+wp-config.php
+.htaccess
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignore MAMP and local database configs
+.env
+*.sql
+*.tar.gz
+
+# Temporary or IDE/editor files
+*.swp
+*.tmp
+*.bak
+*.backup
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# Sass cache files
+.sass-cache/
+*.css.map
+
+# Ignore anything in the uploads cache or old versions
+uploads/cache/
+uploads/backups/
+uploads/backup.zip
+
+# Ignore sensitive settings (falls vorhanden)
+config.php
